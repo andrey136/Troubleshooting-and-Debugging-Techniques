@@ -139,3 +139,39 @@
 * Jokes:
 
     * There's plenty of jokes related to how, in IT, a lot of what we do to solve problems, is just turn things off and on again.
+
+### Intermittently Failing Script
+
+* Tools that can be helpful:
+    * **Zenity** is the application showing the window to select the date, title, and emails.
+
+* Helpful pieces of advice and Terms:
+    * In general, when dates are involved in a failure, the problem is due to **how the dates are formatted**.
+
+### What is binary search?
+
+
+
+* Tools that can be helpful:
+
+
+
+* Helpful pieces of advice and Terms:
+
+    * **Linear search** example: 
+        1. Start from the first entry 
+        1. Check if the name is the one that we're looking for
+        1. If it doesn't match, move to the second element 
+        1. Check again
+        1. Keep going until we find the employee with the name we're looking for, *or we get to the end of the list*
+
+    * **Binary search** example
+    (*because the list is sorted, we can make decisions about the position of the elements in the list*):
+    
+        1. Compare the name that we're looking for with the element in the middle of the list
+        1. Check if it's equal, smaller, or bigger
+        1. Eliminated half of the list
+        1. Do the same thing again until we find the element.
+
+    * Usually when trying to find the root cause of a problem, we'll be looking for one answer in a list of many.
+
