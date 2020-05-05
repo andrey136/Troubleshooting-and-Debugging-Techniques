@@ -24,3 +24,4 @@ def binary_search(list, key):
         if list[middle] < key:
             left = middle + 1
     return -1
+"binary"
