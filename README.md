@@ -236,25 +236,31 @@
 
 ### How Computers Use Resources
 
-    the time spent retrieving that data will depend on where it's located. 
+* The time spent retrieving data depends on where it's located:
+    * CPU
+    * Disk
+    * Memory
+    * Network
 
-    CPU, disk, memory, or network
+* Examples of caches in IT:
+    * A web proxy, *stores websites, images, or videos that are accessed often by users behind the proxy*.  * DNS services, *implement a local cache for the websites they resolve*.
+    * The operating system, *takes care of some caching for us*.
+    * The contents of files or libraries that are accessed often, *even if they aren't in use right now* are **the contents are cached** in memory.
 
-    a cache stores data in a form that's faster to access than its original form.
+* After running out of RAM:
+    * The OS will just remove from RAM anything that's cached, *but not strictly necessary*.
+    * The operating system will put the parts of the memory that aren't currently in use onto the hard drive in a space called **swap**.
 
-    a ton of examples of caches in IT. A web proxy is a form of cash. It stores websites, images, or videos that are accessed often by users behind the proxy. DNS services usually implement a local cache for the websites they resolve.he operating system also takes care of some caching for us.
-
-    the contents of files or libraries that are accessed often, even if they aren't in use right now are the contents are cached in memory.
-
-    What happens when you run out of RAM? At first, the OS will just remove from RAM anything that's cached, but not strictly necessary. If there's still not enough RAM after that, the operating system will put the parts of the memory that aren't currently in use onto the hard drive in a space called swap.
-
-    The swapping implementation's concept is The information that's not needed right now is removed from RAM and put onto the disk, while the information that's needed now is put into RAM.
-
-    your machine is slow First, if there are too many open applications and some can be closed, close the ones that aren't needed. Or if the available memory is just too small for the amount that computer is using, add more RAM to the computer. The third reason is that one of the running programs may have a memory leak, causing it to take all the available memory. 
+* The machine is slow because:
+    * There are too many open applications
+    * The available memory is just too small for the amount that computer is using
+    * The running programs may have a memory leak, *causing it to take all the available memory*. 
     
-    A memory leak means that memory which is no longer needed is not getting released.
-
-    if a program is using a lot of memory and this stops when you restart the program, it's probably because of a memory leak.
+* Helpful pieces of advice and Terms:   
+    * A **memory leak** means that memory which is no longer needed is not getting released.
+    * **Cache** stores data in a form that's faster to access than its original form.
+    * **The swapping implementation's concept** is The information that's not needed right now is removed from RAM and put onto the disk, while the information that's needed now is put into RAM.
+    * If a program is using a lot of memory and this stops when you restart the program, it's probably because of a **memory leak**.
 
 ### Possible Causes of Slowness
 
