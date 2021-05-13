@@ -1,3 +1,4 @@
+
 # Troubleshooting and Debugging Techniques
 
 ## Troubleshooting Concepts
@@ -94,7 +95,8 @@
 
     * **iftop** is another tool similar to top that shows the current traffic on the network interfaces.
 
-    * The **rsync** command, which is often used for backing up data, includes a **-bwlimit** for checking if the backup software already includes an option to limit the bandwidth.
+    * The **rsync** command, whic
+    h is often used for backing up data, includes a **-bwlimit** for checking if the backup software already includes an option to limit the bandwidth.
 
     * A program **Trickle** can be used to limit the bandwidth being used.
 
